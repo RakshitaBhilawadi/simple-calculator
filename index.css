@@ -1,14 +1,19 @@
-body{
-  background-color: rgb(175, 172, 237);
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #2525c4;
 }
-.container{
-  background-color: white;
-  text-align: center;
-  align-items: center;
-  margin: 300px;
-  height: 400px;
-  padding: 10px;
-  border-radius: 15px;
+
+.container {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
 }
 .head{
   margin-top: 60px;
